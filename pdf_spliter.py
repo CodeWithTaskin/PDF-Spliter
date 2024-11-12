@@ -4,7 +4,7 @@ class Configuration:
     def __init__(self):
         try:
             self.pdf_path = input("Enter your PDF path: ")
-            self.splitting_type = input('Do you want "Full PDF Split" or "Specific Split"?\n[Type "full" or "specific: "]')
+            self.splitting_type = input('Do you want "Full PDF Split" or "Specific Split"?\n[Type "full" or "specific:"]')
             self.chapter_name = input('Enter your chapter name: ')
             self.output_path = input('Enter path you want your output: ')
             if self.splitting_type == 'full'.lower():
